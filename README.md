@@ -95,7 +95,9 @@ As long as you made sure you have iterative calculations enabled, then the final
 
 ## 4) How to Find the Wine Bottle Center of Gravity (CG)
 
-**Coming soon!**
+You've chosen the bottle you want to display, but you don't know how to find the center of gravity, so here you are!  You'll need three things: the wine bottle, a flat table, and a cylindrical object like a pencil or pen (without any clips attached to it that will impede its rolling motion).  I use a pen with the cap removed for the cylindrical object.  Turn the bottle horizontal with respect to the table, and lie it down on the pen.  The longitudinal pen axis should be perpendicular to the longitudinal bottle axis.  Lightly support the bottle on the neck end or base end as necessary.  Roll the bottle back and forth on the pen until the bottle doesn't need any support from your hands on either side.  Make a note (or a mark) of where that point is on the bottle.  This is the CG location!  The important input paramter for the design is the distance from the bottle base to the CG location, so stand the bottle upright again, and measure from the base to the marked location.  This is the variable *bLcg*.
+
+It is important to note that this CG location is only accurate for a horizontal bottle.  This makes sense because if you tilt the bottle upward at an angle, the wine will slosh to the bottle neck (away from the base), and will move your CG closer to the neck.  This will affect the resulting calculations.  If you think about it, this means that as you increase the angle of the bottle with respect to the table (by drilling a smaller hole), you'll need to pull the bottle farther out of the hole to keep it balanced for that particular design (which was based on a horizontal bottle, with the maximum diameter hole).
 
 ## 5) How to Calculate the Wood Density
 
