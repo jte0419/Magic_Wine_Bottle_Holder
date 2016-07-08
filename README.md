@@ -13,6 +13,8 @@ I've broken this readme into several sections:
 * 5) How to Calculate the Wood Density
 * 6) Final Thoughts
 
+If you want to see how to design and build a single-bottle MWBH, check out my [YouTube video](https://www.youtube.com/watch?v=LFT5_KenCFo)!
+
 ## 1) Getting Started
 
 The first question you should ask yourself is whether you want to design/build a single-bottle or a double-bottle magic wine bottle holder.  With that decision out of the way, you can decide whether you want to use some typical (good-looking) dimensions that I can provide for you, or if you want to have control over your design
