@@ -1,0 +1,103 @@
+// ---------------------------------------------------------- //
+// ------------------- MWBH 2 File Inputs ------------------- //
+// ---------------------------------------------------------- //
+
+wType	bTypeB	bTypeT
+0	0	0
+
+wT	wW
+0.75	3
+
+wV	wM
+90	0.500
+
+b1Height	b1LBody	b1DNeck	b1LNeck	b1DBase
+12	        7.5	1	3.5	3
+
+b2Height	b2LBody	b2DNeck	b2LNeck	b2DBase
+12	        7.5	1	3.5	3
+
+b1Lcg	b1Rho	b1V
+4.5	0.9755	0.750
+
+b2Lcg	b2Rho	b2V
+4.5	0.9755	0.750
+
+useMinAng	theta	pctLAdd	sepPct
+1	        45	10	50
+
+iterMax	errorTol	adjustM
+20	1e-5	        0.01
+
+// ---------------------------------------------------------- //
+// ------------------ For Advanced Users Only --------------- //
+// ---------------------------------------------------------- //
+
+
+
+// ---------------------------------------------------------- //
+// ---------------- Nothing Read Below This Line ------------ //
+// ---------------------------------------------------------- //
+
+wTypeB ->   [0]: Pallet wood
+	    [1]: Cherry wood
+	    [2]: Maple wood
+	    [3]: User defined
+	   	 - Must update vars shown in WOOD PARAMS section
+
+bTypeB ->   [0]: Bordeaux bottle
+	    [1]: Burgundy bottle
+	    [2]: User defined
+	   	 - Must update vars shown in BOTTLE PARAMS section
+	   	 
+bTypeT ->   [0]: Bordeaux bottle
+	    [1]: Burgundy bottle
+	    [2]: User defined
+	   	 - Must update vars shown in BOTTLE PARAMS section
+	   
+wT ->	    [#]: Thickenss of wood board [in]
+
+wW ->	    [#]: Width of wood board [in]
+
+-------------------------- WOOD PARAMS --------------------------------
+
+wV -> 	   [#]: Measured wood volume [in^3]
+
+wM ->      [#]: Measured wood mass [kg]
+
+------------------------- BOTTLE PARAMS -------------------------------
+
+bHeight -> [#]: Total height [in]
+
+bLBody ->  [#]: Length of body (bottom to shoulder) [in]
+
+bDNeck ->  [#]: Neck diameter [in]
+
+bLNeck ->  [#]: Neck length [in]
+
+bDBase ->  [#]: Base diameter [in]
+
+bLcg ->    [#]: Distance of CG from base [in]
+
+bRho ->    [#]: Density of wine [kg/L]
+
+bV ->      [#]: Volume of wine [L]
+
+------------------------------------------------------------------------
+
+useMinAng ->  [0]: Use the user-defined theta angle
+	      [1]: Use the calculated minimum angle
+	      
+theta ->      [#]: Angle of wood with respect to table [deg]
+
+pctLAdd ->    [%]: Percentage of wood to add past hole
+		   - Controls aesthetic aspect of bottle holder
+		   
+sepPct ->     [%]: Percentage of vertical separation between bottom and top bottle
+
+------------------------------------------------------------------------
+
+iterMax ->  [#]: Maximum iterations
+
+errorTol -> [#]: Error tolerance for solution convergence
+
