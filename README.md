@@ -11,13 +11,16 @@ I've broken this readme into several sections:
   * Excel Spreadsheet
 * 4) How to Find the Wine Bottle Center of Gravity (CG)
 * 5) How to Calculate the Wood Density
-* 6) Final Thoughts
+* 6) Assumptions
+* 7) Final Thoughts
 
-If you want to see how to design and build a single-bottle MWBH, check out my [YouTube video](https://www.youtube.com/watch?v=LFT5_KenCFo)!
+If you want to see how to design and build a single-bottle MWBH, check out this [YouTube video](https://www.youtube.com/watch?v=LFT5_KenCFo)!
+
+If you want to see how to desgin and build a double-bottle MWBH, check out this [YouTube video](https://www.youtube.com/watch?v=f5bap2hN8Xc)!
 
 ## 1) Getting Started
 
-The first question you should ask yourself is whether you want to design/build a single-bottle or a double-bottle magic wine bottle holder.  With that decision out of the way, you can decide whether you want to use some typical (good-looking) dimensions that I can provide for you, or if you want to have control over your design
+The first question you should ask yourself is whether you want to design/build a single-bottle or a double-bottle magic wine bottle holder.  With that decision out of the way, you can decide whether you want to use some typical (good-looking) dimensions that I can provide for you, or if you want to have control over your design.
 
 The default settings in my programs provided in this repository will give you something that looks normal.  For the MWBH-1B, the *Add Length %* is safe to keep at 20%.  For the MWBH-2B, the *Add Length %* looks good anywhere from 10% to 20%.  For the MWBH-2B, I would leave the *Vert Sep %* at 50%.  Anything higher will separate the bottles too much, and anything lower will bring the bottles too close together.  You'll still need to input your wood dimensions (thickness and width).
 
@@ -105,7 +108,11 @@ It is important to note that this CG location is only accurate for a horizontal 
 
 **Coming soon!**
 
-## 6) Final Thoughts
+## 6) Assumptions
+
+**Coming soon!**
+
+## 7) Final Thoughts
 
 That's it!  Now you can go off to design and build your magic wine bottle holder.  I'll be updating this readme file as more things become available, so keep checking back if you want updates.
 
