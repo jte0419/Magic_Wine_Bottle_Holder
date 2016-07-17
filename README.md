@@ -18,6 +18,8 @@ If you want to see how to design and build a single-bottle MWBH, check out this 
 
 If you want to see how to desgin and build a double-bottle MWBH, check out this [YouTube video](https://www.youtube.com/watch?v=f5bap2hN8Xc)!
 
+If you want to see the underlying math behind the design, check out this [PDF document](MWBH_Design.pdf).
+
 ## 1) Getting Started
 
 The first question you should ask yourself is whether you want to design/build a single-bottle or a double-bottle magic wine bottle holder.  With that decision out of the way, you can decide whether you want to use some typical (good-looking) dimensions that I can provide for you, or if you want to have control over your design.
@@ -28,7 +30,7 @@ You can also ignore my sage advice and design your own from scratch.  That's wha
 
 ## 2) The Gist of the Math
 
-**Coming soon!**
+A detailed description of the underlying math can be found in the [design document](MWBH_Design.pdf).  A shortened version will be provided here shortly.
 
 ## 3) Code
 
@@ -116,5 +118,5 @@ It is important to note that this CG location is only accurate for a horizontal 
 
 That's it!  Now you can go off to design and build your magic wine bottle holder.  I'll be updating this readme file as more things become available, so keep checking back if you want updates.
 
-As a final disclaimer, let me say that I usually stay within normal limits when I design my MWBHs.  That is, I don't go too crazy with the design, using extreme angles and percentages and such.  There are inherent assumptions in my code that only makes the design valid up to a certain point.  These assumptions are discussed further in the PDF.  I also obviously can't test out every single design, so if you find one that doesn't work for you, let me know and I can try to figure out why.
+As a final disclaimer, let me say that I usually stay within normal limits when I design my MWBHs.  That is, I don't go too crazy with the design, using extreme angles and percentages and such.  There are inherent assumptions in my code that only makes the design valid up to a certain point.  These assumptions are discussed further in the [PDF](MWBH_Design.pdf).  I also obviously can't test out every single design, so if you find one that doesn't work for you, let me know and I can try to figure out why.
 
